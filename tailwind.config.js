@@ -5,7 +5,17 @@ module.exports = {
   },
   purge: [],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'headFont': ['Poppins', 'sans-serif'],
+        'bodyFont': ['Open Sans', 'sans-serif']
+      },
+      colors: {
+        'pink-primary': '#F00098',
+        'dark-cyan': '#00252E',
+        'pale-blue': '#f5faff'
+      }
+    },
   },
   variants: {},
   plugins: [],
