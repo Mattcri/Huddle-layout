@@ -1,1 +1,123 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@700&display=swap')
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@700&display=swap');
+
+.grow-section {
+  position: relative;
+  margin: 80px 0;
+  background-color: #f6fbff;
+  display: flex;
+  align-items: center;
+}
+
+.users-section {
+  position: relative;
+  margin: 80px 0;
+  background-color: #f6fbff;
+  display: flex;
+  align-items: center;
+}
+
+.grow-section::before {
+  content: '';
+  background-image: url('../assets/bg-section-top-mobile-1.svg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 10rem;
+  width: 100%;
+  top: -140px;
+}
+
+.users-section::before {
+  content: '';
+  background-image: url('../assets/bg-section-top-mobile-2.svg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 10rem;
+  width: 100%;
+  top: -110px;
+}
+
+.grow-section::after {
+  content: '';
+  background-image: url('../assets/bg-section-bottom-mobile-1.svg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 10rem;
+  width: 100%;
+  bottom: -140px;
+}
+.users-section::after {
+  content: '';
+  background-image: url('../assets/bg-section-bottom-mobile-2.svg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 10rem;
+  width: 100%;
+  bottom: -140px;
+}
+
+@media (min-width: 640px) {
+  .grow-section {
+    margin: 150px 0;
+  }
+  .users-section {
+    margin: 220px 0;
+  }
+
+  .grow-section::before {
+    content: '';
+    background-image: url('../assets/bg-section-top-desktop-1.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 10rem;
+    width: 100%;
+    top: -140px;
+  }
+  .users-section::before {
+    content: '';
+    background-image: url('../assets/bg-section-top-desktop-2.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 10rem;
+    width: 100%;
+    top: -140px;
+  }
+  .grow-section::after {
+    content: '';
+    background-image: url('../assets/bg-section-bottom-desktop-1.svg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 10rem;
+    width: 100%;
+    bottom: -140px;
+  }
+  .users-section::after {
+    content: '';
+    background-image: url('../assets/bg-section-bottom-desktop-2.svg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 10rem;
+    width: 100%;
+    bottom: -140px;
+  }
+  
+}
+
+
+
