@@ -17,6 +17,12 @@
   align-items: center;
 }
 
+footer {
+  position: relative;
+  margin: 70px 0 0;
+  background-color: #00252E
+}
+
 .grow-section::before {
   content: '';
   background-image: url('../assets/bg-section-top-mobile-1.svg');
@@ -39,6 +45,18 @@
   height: 10rem;
   width: 100%;
   top: -110px;
+}
+
+footer::before {
+  content: '';
+  background-image: url('../assets/bg-footer-top-mobile.svg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  height: 10rem;
+  width: 100%;
+  top: -45px;
 }
 
 .grow-section::after {
@@ -93,6 +111,14 @@
     height: 10rem;
     width: 100%;
     top: -140px;
+  }
+  footer {
+    margin: 150px 0 0;
+  }
+  footer::before {
+    background-image: url('../assets/bg-footer-top-desktop.svg');
+    background-size: cover;
+    top: -155px;
   }
   .grow-section::after {
     content: '';
