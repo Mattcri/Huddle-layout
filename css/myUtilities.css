@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@700&display=swap');
 
 .grow-section {
@@ -89,31 +88,16 @@ footer::before {
   .users-section {
     margin: 220px 0;
   }
-
-  .grow-section::before {
-    content: '';
-    background-image: url('../assets/bg-section-top-desktop-1.svg');
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    height: 10rem;
-    width: 100%;
-    top: -140px;
-  }
-  .users-section::before {
-    content: '';
-    background-image: url('../assets/bg-section-top-desktop-2.svg');
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    height: 10rem;
-    width: 100%;
-    top: -140px;
-  }
   footer {
     margin: 150px 0 0;
+  }
+
+  .grow-section::before {
+    background-image: url('../assets/bg-section-top-desktop-1.svg');
+  }
+  .users-section::before {
+    background-image: url('../assets/bg-section-top-desktop-2.svg');
+    top: -140px;
   }
   footer::before {
     background-image: url('../assets/bg-footer-top-desktop.svg');
@@ -121,28 +105,11 @@ footer::before {
     top: -155px;
   }
   .grow-section::after {
-    content: '';
     background-image: url('../assets/bg-section-bottom-desktop-1.svg');
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    height: 10rem;
-    width: 100%;
-    bottom: -140px;
   }
   .users-section::after {
-    content: '';
     background-image: url('../assets/bg-section-bottom-desktop-2.svg');
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    height: 10rem;
-    width: 100%;
-    bottom: -140px;
   }
-  
 }
 
 
