@@ -1,16 +1,6 @@
 # Frontend Mentor - Huddle landing page with curved sections
 
-![Header/intro section for the Huddle landing page with curved sections](./design/desktop-preview.jpg)
+## Hola! 👋
 
-## Welcome! 👋
-
-
-
-[Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
-
-**To do this challenge, you need a basic understanding of HTML and CSS.**
-
-
-
-
+Mucho se habla del poder de **Tailwind CSS** al ser utilizado como framework UI en los proyectos, y por esa razón quise aprender su funcionamiento y características en un primer acercamiento replicando el desafío Huddle-layout de [Frontend Mentor.](https://www.frontendmentor.io)
 
